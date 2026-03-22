@@ -1,0 +1,69 @@
+body {
+  background-color: #d9e2ec;
+  color: #102a43;
+  margin: 0;
+  padding: 20px;
+}
+
+.content-wrapper {
+  background-color: #ffffff;
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #829ab1;
+}
+
+h1 {
+  color: #b90000;
+  text-align: center;
+  border-bottom: 3px solid #102a43;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #005a9c;
+}
+
+h3 {
+  color: #334e68;
+  text-decoration: underline;
+}
+
+.section-box {
+  border: 2px solid #032d57;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background-color: #e8f5f5;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+li {
+  margin-bottom: 10px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px; /* 把 100% 改成 500px，這:樣所有大圖都會被縮小 */
+  border-radius: 10px;
+}
+.image-row {
+  display: flex;
+  flex-direction: row; /* 強制左右橫向排列 */
+  justify-content: center; /* 讓兩張圖在網頁正中間 */
+  gap: 20px; /* 兩張圖中間的空隙 */
+}
+
+.image-row img {
+  height: 250px; /* 限制圖片的高度，你可以自己改數字 */
+  width: auto; /* 寬度讓它自動依照比例調整 */
+  border-radius: 10px; /* 讓圖片有稍微圓圓的角 */
+}
